@@ -1,21 +1,33 @@
-Superiorsettings:
-================
+<hr>
+<div align="center">
+<a href="https://github.com/Magnus-OS">
+<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/header.png?raw=true" alt="Magnus OS"> 
+</a>
+<hr>
 
-<img src="phoenix.png" align="right">
+<a href="">
+<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/credits.png?raw=true" alt="Credits">
+</a>
 
-What is Superiorsettings:
-------------------------
-
-**Superiorsettings** Is The Feature Centre of **Superior OS** [ We call it **Superior Goodies** ], This Tab Contains All The Features / Tweaks Which Are Added To Superior OS.
-
-Under **Superior Goodies** U can find All Your Needed Fatures In Their Respective Tabs.
-
-
-
-Credits:
--------
- * [**Alexey Derendyaev**](https://github.com/alexxxdev) - For the Base.
- * [**Max**](https://github.com/xyyx) - For the Idea about tabs & drawables.
- * [**Rohit Poroli**](https://github.com/rohitporoli) - For the About ROM Tab.
- * [**Sam Grande**](https://github.com/samgrande) - For the About ROM banner.
- * [**DarkNess reDefined ROM**](https://github.com/DarkNess-reDefined) - For some drawables.
+<br>
+<br>
+ 
+  **SuperiorOS ROM** & **ProjectSakura ROM**
+<br>
+ ~ For Magnus Base.
+<br>
+  **Alexey Derendyaev**
+~ For the Base.
+<br>
+  **Max**
+~ For the Idea about tabs & drawables.
+<br>
+  **Rohit Poroli**
+~ For the About ROM Tab.
+<br>
+ **DarkNess reDefined ROM**
+~ For some drawables.
+<br>
+  **EvolutionX ROM**
+~ For some icons.
+<hr>
