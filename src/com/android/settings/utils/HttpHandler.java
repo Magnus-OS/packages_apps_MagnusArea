@@ -1,4 +1,4 @@
-package com.superior.settings.utils;
+package com.magnus.settings.utils;
 
 import android.util.Log;
 
@@ -61,4 +61,4 @@ public class HttpHandler {
 
       return sb.toString();
    }
-} 
+}

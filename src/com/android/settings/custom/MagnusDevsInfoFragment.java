@@ -37,7 +37,7 @@ import androidx.preference.PreferenceCategory;
 import com.android.settings.R;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.superior.settings.utils.HttpHandler;
+import com.magnus.utils.HttpHandler;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -46,13 +46,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
-public class SuperiorDevsInfoFragment extends SettingsPreferenceFragment {
+public class MagnusDevsInfoFragment extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
        super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.superior_devs_info);
+        addPreferencesFromResource(R.xml.magnus_devs_info);
         if (isOnline()) {
             showGitProfileIcons();
         }
@@ -60,20 +60,15 @@ public class SuperiorDevsInfoFragment extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.SUPERIOR;
+        return MetricsEvent.MAGNUS_SETTINGS;
     }
 
     private void showGitProfileIcons() {
 		getGithubIcon(R.string.dev_1_git, findPreference("dev1"));
 		getGithubIcon(R.string.dev_2_git, findPreference("dev2"));
 		getGithubIcon(R.string.dev_3_git, findPreference("dev3"));
-		getGithubIcon(R.string.dev_4_git, findPreference("dev4"));
-		getGithubIcon(R.string.dev_5_git, findPreference("dev5"));
-		getGithubIcon(R.string.mentions_sam_git, findPreference("mentions_sam"));
-		getGithubIcon(R.string.mentions_iacob_git, findPreference("mentions_iacob"));
-		getGithubIcon(R.string.mentions_pavan_git, findPreference("mentions_pavan"));
     }
-    
+
     public void getGithubIcon(int usernameResId, Preference preference) {
         new parseGitIcon().execute(getResources().getString(usernameResId), preference);
     }

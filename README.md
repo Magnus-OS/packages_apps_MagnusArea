@@ -12,12 +12,12 @@
 <br>
 <br>
  
+  **LineageOS** & **Alexey Derendyaev**
+~ For the Base.
+<br>
   **SuperiorOS ROM** & **ProjectSakura ROM**
 <br>
  ~ For Magnus Base.
-<br>
-  **Alexey Derendyaev**
-~ For the Base.
 <br>
   **Max**
 ~ For the Idea about tabs & drawables.
@@ -27,7 +27,4 @@
 <br>
  **DarkNess reDefined ROM**
 ~ For some drawables.
-<br>
-  **EvolutionX ROM**
-~ For some icons.
 <hr>
