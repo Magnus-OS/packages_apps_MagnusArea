@@ -1,20 +1,30 @@
------------------------------------------------------------------------------
+<hr>
 <div align="center">
-<img src="https://i.imgur.com/3n4NiPo.jpg"> 
-<br>
-<br>
-<strong><i>Project Sakura based on LineageOS 18.0</i></strong>
-<br>
-<br>
-</div>
+<a href="https://github.com/Magnus-OS">
+<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/header.png?raw=true" alt="Magnus OS"> 
+</a>
+<hr>
 
------------------------------------------------------------------------------
-Credits:
--------
- * **Superior OS ROM**
- * **Alexey Derendyaev** - For the Base.
- * **Max** - For the Idea about tabs & drawables.
- * **Rohit Poroli** - For the About ROM Tab.
- * **DarkNess reDefined ROM** - For some drawables.
- * **EvolutionX ROM** - For some icons.
+<a href="">
+<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/credits.png?raw=true" alt="Credits">
+</a>
 
+<br>
+<br>
+ 
+  **LineageOS** & **Alexey Derendyaev**
+~ For the Base.
+<br>
+  **SuperiorOS ROM** & **ProjectSakura ROM**
+<br>
+ ~ For Magnus Base.
+<br>
+  **Max**
+~ For the Idea about tabs & drawables.
+<br>
+  **Rohit Poroli**
+~ For the About ROM Tab.
+<br>
+ **DarkNess reDefined ROM**
+~ For some drawables.
+<hr>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright (C) 2020 Project Sakura
+     Copyright (C) 2022 Project Sakura
+     Copyright (C) 2022 MagnusOS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -22,7 +23,7 @@
         android:title="@string/battery_bar_title"
         android:defaultValue="false" />
 
-    <com.sakura.settings.preferences.SystemSettingSeekBarPreference
+    <com.magnus.settings.preferences.SystemSettingSeekBarPreference
         android:key="statusbar_battery_bar_thickness"
         android:title="@string/battery_bar_thickness_title"
         android:defaultValue="2"
@@ -31,7 +32,7 @@
         settings:units="@string/unit_pixels"
         android:dependency="statusbar_battery_bar" />
 
-    <com.sakura.settings.preferences.SystemSettingListPreference
+    <com.magnus.settings.preferences.SystemSettingListPreference
         android:key="statusbar_battery_bar_style"
         android:title="@string/battery_bar_style_title"
         android:entries="@array/battery_bar_style_entries"
@@ -39,14 +40,14 @@
         android:defaultValue="0"
         android:dependency="statusbar_battery_bar" />
 
-    <com.sakura.settings.preferences.SystemSettingSwitchPreference
+    <com.magnus.settings.preferences.SystemSettingSwitchPreference
         android:key="statusbar_battery_bar_blend_color"
         android:title="@string/battery_bar_blend_color_title"
         android:summary="@string/battery_bar_blend_color_summary"
         android:defaultValue="true"
         android:dependency="statusbar_battery_bar" />
 
-    <com.sakura.settings.preferences.SystemSettingSwitchPreference
+    <com.magnus.settings.preferences.SystemSettingSwitchPreference
         android:key="statusbar_battery_bar_blend_color_reverse"
         android:title="@string/battery_bar_blend_color_reverse_title"
         android:summaryOn="@string/battery_bar_blend_color_reverse_summary_on"

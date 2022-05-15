@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018-22 The Superior OS Project
+     Copyright (C) 2022 MagnusOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/interface_title"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <!--Misc UI toggles -->
+    <PreferenceCategory
+        android:title="@string/misc_interface_settings">
+
+    <!-- roaming indicator icon -->
+    <com.magnus.settings.preferences.SystemSettingSwitchPreference
+            android:key="roaming_indicator_icon"
+            android:title="@string/roaming_indicator_icon_title"
+            android:summary="@string/roaming_indicator_icon_summary"
+            android:defaultValue="true"/>   
+
+    <!-- 4g icon toggle -->
+    <com.magnus.settings.preferences.SystemSettingSwitchPreference
+            android:key="show_fourg_icon"
+            android:title="@string/show_fourg_icon_title"
+            android:summary="@string/show_fourg_icon_summary"
+            android:defaultValue="false"/>
+
+    <!-- old styles icons-->
+    <com.magnus.settings.preferences.SystemSettingSwitchPreference
+            android:key="use_old_mobiletype"
+            android:title="@string/old_mobiletype_title"
+            android:summary="@string/old_mobiletype_summary" />
+
+    <!-- data disabled icon -->
+    <com.magnus.settings.preferences.SystemSettingSwitchPreference
+            android:key="data_disabled_icon"
+            android:title="@string/data_disabled_icon_title"
+            android:summary="@string/data_disabled_icon_summary"
+            android:defaultValue="true"/>
+
+    <!-- bluetooth battery level -->
+    <com.magnus.settings.preferences.SystemSettingSwitchPreference
+            android:key="bluetooth_show_battery"
+            android:title="@string/bluetooth_battery_title"
+            android:summary="@string/bluetooth_battery_summary"
+            android:defaultValue="true"/>
+
+    <!-- Lock icon toggle -->
+    <com.magnus.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_lock_icon"
+            android:title="@string/lockscreen_lock_icon_title"
+            android:summary="@string/lockscreen_lock_icon_summary"
+            android:defaultValue="true" />
+
+    <!--Network traffic -->
+    <Preference
+            android:key="network_traffic"
+            android:fragment="com.sakura.settings.fragments.NetworkTraffic"
+            android:summary="@string/traffic_summary"            
+            android:title="@string/traffic_title" />
+
+    </PreferenceCategory>
+
+    <!-- Themes and UI -->
+    <PreferenceCategory
+        android:title="@string/themes_ui_settings">
+        
+    <!-- Charging animation -->
+    <com.magnus.settings.preferences.SystemSettingSwitchPreference
+           android:key="charging_animation"
+           android:title="@string/charging_animation_title"
+           android:summary="@string/charging_animation_summary"
+           android:defaultValue="true" />
+
+    <!-- OneUI like settings actionbar -->
+    <com.magnus.settings.preferences.SystemSettingSwitchPreference 
+            android:key="settings_spacer" 
+            android:title="@string/enable_oneui" 
+            android:summary="@string/enable_oneui_summary" 
+            android:defaultValue="true" />
+
+    <!-- volume panel plugins -->
+    <com.magnus.settings.preferences.SystemSettingListPreference
+            android:key="systemui_plugin_volume"
+            android:title="@string/volume_panel"
+            android:entries="@array/volume_panel_entries"
+            android:entryValues="@array/volume_panel_values"
+            android:defaultValue="com.android.systemui.volume" />
+
+    <!--dashboard themes-->
+    <com.magnus.settings.preferences.SystemSettingListPreference
+            android:key="theming_settings_dashboard_icons"
+            android:title="@string/theming_settings_dashboard_icons_title"
+            android:entries="@array/theming_settings_dashboard_icons_entries"
+            android:entryValues="@array/theming_settings_dashboard_icons_values"
+            android:defaultValue="3" />
+
+    <!-- gvisual mod -->
+    <PreferenceScreen
+            android:key="gvisual"
+            android:title="@string/gvisual_title"
+            android:summary="@string/gvisual_summary"
+            android:fragment="com.magnus.settings.fragments.GvisualSettings" />
+
+    <!-- Battery bar -->
+    <PreferenceScreen
+            android:key="batterybar"
+            android:title="@string/battery_bar_title"
+            android:summary="@string/battery_bar_summary"
+            android:fragment="com.magnus.settings.fragments.BatteryBar" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

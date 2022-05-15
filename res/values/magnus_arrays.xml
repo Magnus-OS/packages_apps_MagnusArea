@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 Project Sakura
+     Copyright (C) 2022 MagnusOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Battery bar -->
+    <string-array name="battery_bar_entries">
+        <item>@string/battery_bar_location_hide</item>
+        <item>@string/battery_bar_location_statusbar</item>
+        <item>@string/battery_bar_location_top_navbar</item>
+        <item>@string/battery_bar_location_bottom_navbar</item>
+    </string-array>
+
+    <string-array name="battery_bar_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="battery_bar_no_navbar_entries">
+        <item>@string/battery_bar_location_hide</item>
+        <item>@string/battery_bar_location_statusbar</item>
+    </string-array>
+
+    <string-array name="battery_bar_no_navbar_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="battery_bar_style_entries" translatable="false">
+        <item>@string/battery_bar_style_regular</item>
+        <item>@string/battery_bar_style_center_mirrored</item>
+        <item>@string/battery_bar_style_reversed</item>
+    </string-array>
+
+    <string-array name="battery_bar_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Custom headers -->
+    <string-array name="custom_header_provider_entries" translatable="false">
+        <item>@string/daylight_header_provider_title</item>
+        <item>@string/file_header_provider_title</item>
+    </string-array>
+
+    <string-array name="custom_header_provider_values" translatable="false">
+        <item>@string/daylight_header_provider</item>
+        <item>@string/file_header_provider</item>
+    </string-array>
+
+    <!--dashboard icons-->
+    <string-array name="theming_settings_dashboard_icons_entries" translatable="false">
+        <item>@string/theming_settings_dashboard_icons_default2</item>
+        <item>@string/theming_settings_dashboard_icons_default_accent2</item>
+        <item>@string/theming_settings_dashboard_icons_plain</item>
+        <item>@string/theming_settings_dashboard_icons_plain_accent</item>
+        <item>@string/theming_settings_dashboard_icons_default_oneplus</item>
+    </string-array>
+
+    <string-array name="theming_settings_dashboard_icons_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- Network traffic location -->
+    <string-array name="network_traffic_location_entries">
+        <item>@string/traffic_disabled</item>
+        <item>@string/traffic_statusbar</item>
+        <item>@string/traffic_expanded_statusbar</item>
+    </string-array>
+    <string-array name="network_traffic_location_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Network traffic type -->
+    <string-array name="show_network_traffic_type_entries" translatable="false">
+        <item>@string/show_network_traffic_combined</item>
+        <item>@string/show_network_traffic_dynamic</item>    
+        <item>@string/show_network_traffic_up</item>
+        <item>@string/show_network_traffic_down</item>
+        <item>@string/show_network_traffic_all</item>
+    </string-array>
+
+    <string-array name="show_network_traffic_type_values" translatable="false">
+        <item>3</item>
+        <item>4</item>	
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- Network Traffic Layout -->
+    <string-array name="network_traffic_layout_entries" translatable="false">
+        <item>@string/network_traffic_layout_h</item>
+        <item>@string/network_traffic_layout_v</item>
+    </string-array>
+
+    <string-array name="network_traffic_layout_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!--Gaming mode-->
+    <string-array name="gaming_mode_ringer_entries">
+        <item>@string/gaming_mode_ringer_off_title</item>
+        <item>@string/gaming_mode_ringer_vibrate_title</item>
+        <item>@string/gaming_mode_ringer_dnd_title</item>
+        <item>@string/gaming_mode_ringer_silent_title</item>
+    </string-array>
+    <string-array name="gaming_mode_ringer_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="gaming_mode_notifications_entries">
+        <item>@string/gaming_mode_notifications_off_title</item>
+        <item>@string/gaming_mode_notifications_notif_title</item>
+        <item>@string/gaming_mode_notifications_toast_title</item>
+        <item>@string/gaming_mode_notifications_all_title</item>
+    </string-array>
+    <string-array name="gaming_mode_notifications_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Horizon light timeout -->
+    <string-array name="horizon_light_timeout_entries" translatable="false">
+        <item>@string/horizon_light_timeout_forever</item>
+        <item>@string/horizon_light_timeout_half_minute</item>
+        <item>@string/horizon_light_timeout_minute</item>
+        <item>@string/horizon_light_timeout_three_minutes</item>
+        <item>@string/horizon_light_timeout_five_minutes</item>
+        <item>@string/horizon_light_timeout_ten_minutes</item>
+    </string-array>
+
+    <string-array name="horizon_light_timeout_values" translatable="false">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>300</item>
+        <item>600</item>
+    </string-array>
+
+    <!-- Horizon light color mode -->
+    <string-array name="horizon_color_mode_entries" translatable="false">
+        <item>@string/horizon_color_mode_accent</item>
+        <item>@string/horizon_color_mode_wall</item>
+        <item>@string/horizon_color_mode_notification</item>
+        <item>@string/horizon_color_mode_custom</item>
+    </string-array>
+
+    <string-array name="horizon_color_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Screen off animation -->
+    <string-array name="screen_off_animation_entries">
+        <item>@string/screen_off_animation_default</item>
+        <item>@string/screen_off_animation_crt</item>
+        <item>@string/screen_off_animation_scale</item>
+    </string-array>
+     <string-array name="screen_off_animation_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Volume step options. -->
+    <string-array name="volume_steps_entries" translatable="false">
+        <item>@string/volume_steps_60</item>
+        <item>@string/volume_steps_45</item>
+        <item>@string/volume_steps_30</item>
+        <item>@string/volume_steps_15</item>
+        <item>@string/volume_steps_7</item>
+        <item>@string/volume_steps_5</item>
+    </string-array>
+
+    <!-- SysUI Tuner: Labels for different types of navigation bar layouts [CHAR LIMIT=60] -->
+    <string-array name="navbar_layout_entries">
+        <item>@string/navbar_layout_normal</item>
+        <item>@string/navbar_layout_compact</item>
+        <item>@string/navbar_layout_leftleaning</item>
+        <item>@string/navbar_layout_rightleaning</item>
+    </string-array>
+
+    <string-array name="navbar_layout_values" translatable="false">
+        <item>default</item>
+        <item>left;back,home,recent;right</item>
+        <item>left,back,home,recent,right;space;space</item>
+        <item>space;space;left,back,home,recent,right</item>
+    </string-array>
+
+    <!-- QS Header data uasge -->
+    <string-array name="qs_datausage_entries" translatable="false">
+        <item>@string/qs_datausage_disabled</item>
+        <item>@string/qs_datausage_daily</item>
+        <item>@string/qs_datausage_monthly</item>
+    </string-array>
+
+    <string-array name="qs_datausage_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Clipboard toast info -->
+    <string-array name="clipboard_toast_info_entries">
+        <item>@string/disabled</item>
+        <item>@string/clipboard_toast_info_show_important</item>
+        <item>@string/clipboard_toast_info_show_all</item>
+    </string-array>
+
+    <string-array name="clipboard_toast_info_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Gvisual mod -->
+    <string-array name="rounded_ui_titles">
+        <item>@string/rounded_style_default</item>
+        <item>@string/rounded_style_rectangle</item>
+        <item>@string/rounded_style_medium</item>
+        <item>@string/rounded_style_large</item>
+    </string-array>
+
+    <string-array name="rounded_ui_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="statusbar_height_titles" translatable="false">
+        <item>@string/sb_height_default</item>
+        <item>@string/sb_height_medium</item>
+        <item>@string/sb_height_large</item>
+        <item>@string/sb_height_extralarge</item>
+    </string-array>
+
+    <string-array name="statusbar_height_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!--  Volume Panel  -->
+    <string-array name="volume_panel_entries">
+        <item>@string/volume_panel_stock</item>
+        <item>@string/volume_panel_aosp</item>
+        <item>@string/volume_panel_compact</item>
+        <item>@string/volume_panel_oreo</item>
+        <item>@string/volume_panel_tiled</item>
+    </string-array>
+
+    <string-array name="volume_panel_values" translatable="false">
+        <item>com.android.systemui.volume</item>
+        <item>com.android.plugin.volume.aosp</item>
+        <item>com.android.plugin.volume.compact</item>
+        <item>com.android.plugin.volume.oreo</item>
+        <item>com.android.plugin.volume.tiled</item>
+    </string-array>
+
+</resources>
