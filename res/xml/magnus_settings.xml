@@ -23,14 +23,6 @@
 
     <PreferenceCategory
            android:title="Magnus Features" >
-  
-       <!-- About Devs -->
-       <com.magnus.settings.preferences.CardviewPreference
-            android:key="dev_info"
-            android:title="@string/magnus_about_info"
-            android:summary="@string/magnus_about_info_summary_title"
-            android:fragment="com.android.settings.custom.magnusDevsInfoFragment"
-            android:icon="@drawable/ic_magnus_about"/>
 
         <!-- Themes -->
         <com.magnus.settings.preferences.CardviewPreference
@@ -87,6 +79,14 @@
             android:summary="@string/magnus_misc_summary_title"
             android:fragment="com.magnus.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_misc"/>
+
+        <!-- About Devs -->
+        <com.magnus.settings.preferences.CardviewPreference
+            android:key="dev_info"
+            android:title="@string/magnus_about_info"
+            android:summary="@string/magnus_about_info_summary_title"
+            android:fragment="com.android.settings.custom.magnusDevsInfoFragment"
+            android:icon="@drawable/ic_magnus_about"/>
 
     </PreferenceCategory>
 
