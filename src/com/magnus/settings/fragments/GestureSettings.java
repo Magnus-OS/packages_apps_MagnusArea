@@ -34,7 +34,7 @@ import android.view.ViewGroup;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.android.internal.util.sakura.Utils;
+import com.android.internal.util.magnus.Utils;
 
 import com.android.settings.R;
 
@@ -50,7 +50,7 @@ public class GestureSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.sakura_settings_gestures);
+        addPreferencesFromResource(R.xml.magnus_settings_gestures);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 

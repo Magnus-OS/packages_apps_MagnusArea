@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2020-2021 Project Sakura
+ * Copyright (C) 2020-2022 Project Sakura
+ * Copyright (C) 2022 MagnusOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -42,7 +43,7 @@ public class PartsSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.sakura_settings_parts);
+        addPreferencesFromResource(R.xml.magnus_settings_parts);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
     }

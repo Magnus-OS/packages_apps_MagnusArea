@@ -78,7 +78,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.sakura_settings_quicksettings);
+        addPreferencesFromResource(R.xml.magnus_settings_quicksettings);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 

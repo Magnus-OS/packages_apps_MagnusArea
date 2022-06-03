@@ -68,7 +68,7 @@
     <!--Network traffic -->
     <Preference
             android:key="network_traffic"
-            android:fragment="com.sakura.settings.fragments.NetworkTraffic"
+            android:fragment="com.magnus.settings.fragments.NetworkTraffic"
             android:summary="@string/traffic_summary"            
             android:title="@string/traffic_title" />
 
