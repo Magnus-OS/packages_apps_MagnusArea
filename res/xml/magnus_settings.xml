@@ -22,7 +22,7 @@
     android:title="@string/magnus_settings_title" >
 
     <PreferenceCategory
-           android:title="Magnus Features" >
+           android:title="Customizations" >
 
         <!-- Themes -->
         <com.magnus.settings.preferences.CardviewPreference

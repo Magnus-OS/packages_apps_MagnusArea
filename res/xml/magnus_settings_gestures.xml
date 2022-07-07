@@ -20,7 +20,7 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!-- Screen shot gesture -->
+    <!-- Screenshot gesture -->
     <PreferenceCategory
         android:title="@string/screenshot_gestures">
         
@@ -28,7 +28,7 @@
         android:key="three_finger_gesture"
         android:title="@string/three_finger_gesture"
         android:summary="@string/three_finger_gesture_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
     
     </PreferenceCategory>
 
