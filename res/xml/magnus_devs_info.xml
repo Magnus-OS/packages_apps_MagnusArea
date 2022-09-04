@@ -59,6 +59,13 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/anuu0010"/>
-        </Preference>  
+        </Preference>
+        <Preference
+            android:title="@string/dev_4"
+            android:summary="@string/dev4_description">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Sreedhar_Santhosh"/>
+        </Preference>
 </PreferenceCategory>
 </PreferenceScreen>
